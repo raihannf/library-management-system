@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 06, 2024 at 06:37 AM
+-- Generation Time: Jan 08, 2024 at 07:17 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.12
 
@@ -44,11 +44,12 @@ CREATE TABLE `peminjamanbuku_mraihannaufalfawwaz` (
 --
 
 INSERT INTO `peminjamanbuku_mraihannaufalfawwaz` (`id`, `judul_buku`, `jumlah`, `nama_peminjam`, `alamat_peminjam`, `noHp_peminjam`, `tanggal_pinjam`, `tanggal_pengembalian`, `lama_pinjam`) VALUES
-(1, 'The Girl With the Dragon Tattoo', 2, 'Ajeng Pudjiastuti', 'Jln. Mangga Dua Raya No. 127', '081122334455', '2023-12-05', '2023-12-10', '5 hari'),
-(2, 'Harry Potter and the Goblet of Fire', 1, 'Salwa Wahyuni', 'Jln. Tentara Pelajar No. 691', '081234567891', '2023-11-02', '2023-11-09', '7 hari'),
+(2, 'Harry Potter and the Goblet of Fire', 1, 'Salwa Wahyuni', 'Jln. Tentara Pelajar No. 75', '081234567891', '2023-11-02', '2023-11-09', '7 hari'),
 (3, 'Between the World and Me', 3, 'Simon Wacana', 'Jln. Acordion No. 7', '089876543210', '2023-12-17', '2023-12-21', '4 hari'),
-(4, 'The Curious Incident of the Dog in the Night‑Time', 1, 'Gatra Latupono', 'Jln. Wahid Hasyim No. 233', '089182736455', '2024-01-01', '2024-01-03', '2 hari'),
-(5, 'Tell Me How It Ends', 1, 'Valencia Kuncoro', 'Jln. Trunojoyo No. 39', '085546372819', '2024-01-02', '2024-01-06', '4 hari');
+(4, 'The Curious Incident of the Dog in the Night‑Time', 1, 'Gatra Latupono', 'Jln. Wahid Hasyim No. 2', '089182736455', '2024-01-01', '2024-01-03', '2 hari'),
+(5, 'Tell Me How It Ends', 1, 'Valencia Kuncoro', 'Jln. Trunojoyo No. 39', '085546372819', '2024-01-02', '2024-01-06', '4 hari'),
+(8, 'The Girl With the Dragon Tattoo', 2, 'Ajeng Pudjiastuti', 'Jln. Mangga Dua No. 12', '081122334455', '2024-01-02', '2024-01-07', '5 hari'),
+(25, 'Signs Preceding the End of the World', 1, 'Raihan Naufal', 'Jln. Pinus Raya No. 7', '08235817782', '2024-01-05', '2024-01-08', '3 hari');
 
 --
 -- Indexes for dumped tables
@@ -68,7 +69,7 @@ ALTER TABLE `peminjamanbuku_mraihannaufalfawwaz`
 -- AUTO_INCREMENT for table `peminjamanbuku_mraihannaufalfawwaz`
 --
 ALTER TABLE `peminjamanbuku_mraihannaufalfawwaz`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
